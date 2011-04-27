@@ -1,0 +1,364 @@
+body, table
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    
+}
+
+body
+{
+    background-color: #999999;
+}
+
+table
+{
+    border-collapse: collapse;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.mainbody
+{
+    width: 900px;
+    background-color: #FFFFFF;
+}
+
+.topheader
+{
+    background-image: url('../images/header.jpg');
+    height: 70px;
+    background-repeat: no-repeat;
+    width: 900px;
+    border: 1px #000000 solid;
+    background-position: 0px -15px;
+}
+
+.welcomesignout
+{
+    font-size: 13px;
+    font-weight: bold;
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.mainmenu
+{
+    background-color: #555555;
+    width: 900px;
+    height: 40px;
+    border: 1px solid #000000;
+}
+
+.selectedmenuitem a, .menuitem a
+{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.selectedmenuitem a:hover, .menuitem a:hover
+{
+    text-decoration: underline;
+}
+
+.selectedmenuitem
+{
+    background-color: #999999;
+    padding-left: 40px;
+    padding-right: 40px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.menuitem
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.searchbox
+{
+    background-image: url('../images/searchbg.jpg');
+    height: 105px;
+    background-repeat: repeat-x;
+    width: 900px;
+    border: 1px #000000 solid;
+}
+
+.searchboxandbutton
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.searchinstruction
+{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.searchlinkdiv
+{
+    color: #000000;
+    font-size: 14px;
+    background-color: #CCCCCC;
+    width: 350px;
+    height: 20px;
+    
+    padding: 5px 0px 0px 5px;
+}
+
+.searchlink
+{
+    color: #000000;
+    font-size: 14px;
+}
+
+.selectedsearchlink
+{
+    font-weight: bold;
+}
+
+.txtSearchBoxDiv
+{
+    background-image: url('../images/searchtextbg.gif');
+    background-repeat: no-repeat;
+    height:40px;
+    width:250px;
+    padding: 0px 0px 0px 0px;
+}
+.txtSearchBox
+{
+    font-size: 22px;
+    
+    height:40px;
+    width:250px;
+    border-width: 1px;
+}
+
+
+.btnRedeem
+{
+    font-size: 14px;
+    background-image: url('../images/button.gif');
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    text-shadow: 1px 1px 0 #FFFFFF;
+	cursor: pointer;
+}
+
+.btnSearch
+{
+    font-size: 22px;
+    font-weight: bold;
+    background-image: url('../images/button.gif');
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+.btnDisable
+{
+    font-size: 22px;
+    font-weight: bold;
+    background-image: url('../images/button2.gif');
+    height: 40px;
+    width: 250px;
+    border-style: none;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+.username
+{
+    font-size: 22px;
+    font-weight: bold;
+	color: Blue;
+}
+
+.usernametitle
+{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.cardtypediv
+{
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+	clear:both;
+}
+
+.greencardtype
+{
+    background-color: #66CC33;
+    padding-top: 5px;
+}
+
+.goldcardtype
+{
+    background-color: #DCA900;
+    padding-top: 5px;
+}
+
+.currentpointscontainer
+{
+    padding-top: 5px;
+    width: 120px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    height: 80px;
+    text-align: center;
+}
+
+.currentpoints
+{
+    font-size: 28px;
+    font-weight: bold;
+	color: Blue;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.maincontent
+{
+    background-color: #FDFDFD;
+}
+
+h2
+{
+    background-color: #eeeeee;
+}
+
+.infotable, .infotable td
+{
+    border: 1px solid #eeeeee;
+    vertical-align: top;
+}
+
+.infotable th {
+	text-align: center;
+	font-weight:Bold;
+	background-color: #DCDCDC;
+}
+
+.infotabledetailtitle
+{
+    background-color: #FDFDFD;
+    font-weight: bold;
+    width: 225px;
+}
+
+.infotabledetailtitlealternate
+{
+    background-color: #eeeeee;
+    font-weight: bold;
+    width: 225px;
+}
+
+.infotablegrouping {
+	background-color: #393939;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: Bold;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.redeem_item {
+	font-size: 20px;
+	font-weight: Bold;
+	color: #FF5900;
+}
+
+.redeem_itemdesc {
+	font-size: 14px;
+	color: #4C4C4C;
+	font-style: italic;
+}
+
+.redeem_itempoints {
+	font-size: 18px;
+	font-weight: Bold;
+	color: #006819;
+}
+
+.inputQuantity {
+	font-size: 30px;
+	font-weight:Bold;
+	color: Red;
+	text-align: center;
+	border: 1px dashed Gray;
+	background-color: #EBEBEB;
+}
+
+.redeem_itemdesc {
+	font-size: 14px;
+}
+
+.sectiontitle
+{
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #eeeeee;
+	color: Navy;
+}
+
+.pad5
+{
+    padding: 5px 5px 5px 5px;
+}
+
+.information
+{
+    font-size: 11px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.alternate
+{
+    background-color: #eeeeee;
+}
+
+div#message {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: Bold;
+	color: White;
+	border: 2px ridge yellow;
+	padding-top: 10px;
+}
+
+.RegistrationCardStatus {
+	color: Green;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.BoldRed {
+	font-weight: Bold;
+	font-style: italic;
+	color: red;
+}
