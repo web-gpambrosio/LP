@@ -19,5 +19,6 @@ $site['smtp_mode'] = "enabled"; // enabled or disabled
 $site['smtp_host'] = "smtp.gmail.com";
 $site['smtp_port'] = 25;
 $site['smtp_username'] = "webitstest@gmail.com";
-$site['smtp_password'] = "p@ssw0rd2010!!";
+// Stop committing sensitive data to public repositories!
+$site['smtp_password'] = "fake-email-password";
 ?> 
